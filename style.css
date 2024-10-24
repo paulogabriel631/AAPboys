@@ -1,0 +1,93 @@
+html, body {
+  background-color: rgb(175,167,167);
+     font-family: "Chelsea Market", system-ui; 
+  color: rgb(0,0,0);
+    margin: 2px;
+    margin-bottom:30px;
+}
+.inicio{
+  background: rgb(150,134,134);
+  font-size: 35px;
+  margin:20px;
+  padding:20px;
+    display:flex;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px rgb(228,0,0);
+}
+
+header{
+  
+  font-family: "Overlock", sans-serif; 
+  color: gold;
+  font-size: 80px;
+  display:flex;
+  position: relativo;
+  margin: 20px;
+  padding: 0px;
+  border-bottom: 3px solid white;
+}
+
+.oi{
+  align-content: center;
+  margin-left: 50px;
+}
+
+p{
+  text-align: justify;
+}
+
+.video{
+  margin: 10px;
+}
+
+header img{
+  width: 200;
+  height: auto;
+    margin-left: 700px;
+}
+
+h3{
+  color: rgb(253,18,18);
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 2px solid white;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height: 200px;
+  opacity: 0.5;
+}
+
+.clipes img:hover{
+  opacity:1.0;
+  border: solid 4px rgb(128,0,0);
+  box-shadow: 2px 4px 4px gray;
+}
+
+footer{
+   font-family: "Overlock", sans-serif; 
+  color: gold;
+  background-color:rgba(117,240,5,0.562);
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1em;
+  padding-bottom: 30px;
+  font-size: 1.7rem;
+  display: block;
+  margin: 0 auto;
+  padding-left: 550px;
+}
+
+
+
+
